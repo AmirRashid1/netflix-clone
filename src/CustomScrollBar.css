@@ -1,0 +1,21 @@
+.custom-scrollbar {
+    height: 100vh;
+    /* overflow-y: auto; */
+    scrollbar-width: thin;
+    scrollbar-color: #85e426b5 #ffffff;
+    background-color: black;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 3.5px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #2f2ff7;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #fbf9fcf1;
+    
+  }
+  
