@@ -1,6 +1,22 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Neflix Clone Using React Js
+
+Neflix clone using React.js framework and Redux tool
+
+## Cloning this project
+
+git clone <https://github.com/AmirRashid1/netflix-clone.git>
+
+```bash
+  cd netflix-clone
+  npm run dev
+```
+
+## Author
+
+- [Amir Rashid](https://github.com/AmirRashid1)
+
+This project was bootstrapped with [Create React App], using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
 
@@ -17,7 +33,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -26,8 +41,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -41,6 +54,15 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Deployment
+
+To deploy this project in firebase hosting
+
+```bash
+  firebase login
+  firebase init
+  npm run build
+  firebase deploy
+```
